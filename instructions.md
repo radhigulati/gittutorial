@@ -20,7 +20,7 @@ If you do you'll see something like
 
 If not, you might see something like
 
-To install git, first install homebrew with 
+To install git, first install [Homebrew](https://brew.sh/) with 
 
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -43,7 +43,7 @@ Let's add your SSH keys to your GitHub account
 ```
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     
-    To delete ssh keys
+To delete ssh keys (don't do this without speaking to me first)
 $ cd ~/.ssh
 $ rm ~/.ssh/github_rsa.pub
 ```
