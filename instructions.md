@@ -1,5 +1,7 @@
+## Installing your text editor
 > Install VScode, Sublime, or another text editor on your computer (I prefer VScode). If you downloaded vscode and have a mac, open up the Command Palette with **cmd+shift+p** or go to ```view > command palette``` in vscode and type in ```Shell Command: Install 'code' command in PATH```. This will allow you to open up vscode from the terminal in mac.
 
+## Installing Git
 First, we need to make sure you have git installed on your computer.
 
 Open up your terminal (you can do a spotlight search on your mac for “terminal”)
@@ -31,7 +33,7 @@ Once you've installed homebrew, you can install git with
 Now let's set your Git username in your Terminal
 
 
-
+## Adding your SSH Keys
 Let's add your SSH keys to your GitHub account
 
 
@@ -75,7 +77,7 @@ Next, lets set up your Git usernmae for every reposiotry on your computer
 ````
 $ git config --global user.name "Mona Lisa"
 ````
-
+## Add email address to GitHub for commits
 Next lets set your commit email address on GitHub. To do so, follow the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address#setting-your-commit-email-address-on-github).
 
 Next, lets set up your commit email address in Git. 
@@ -90,7 +92,7 @@ $ git config --global user.email "email@example.com"
 $ git config user.email
 email@example.com
 ```
-
+## Create project
 Now, let's get are first project going!
 
 First, let's create a new directory where we will store all projects. Make sure you are in your home directory before creating the projects folder. To check which directory you are in use the ```pwd``` command in your terminal and you should see something like ```/Users/radhika```.
@@ -114,6 +116,7 @@ We need it initialize this repository by using the command ```git init```. Make 
 
 >You won't see anything in GitHub right now because we haven't pushed anything to GitHub. We've just been working on the local machine, so everything is stored locally right now.
 
+## Create your first file
 Let's create a a file in the project folder called ```demo.txt```.
 
 To create this file, type ```touch demo.txt``` into your terminal.
@@ -122,11 +125,13 @@ Let's open the code editor you downloaded earlier for this project. If you are u
 
 Let's add this file to our staging area. The staging area is where we keep track of all the files we need to commit. If a file is not added to the staging area, it will not be commited. To add a file to the staging area  type in the command ```git add demo.txt```. If you want to add all the files to the staging area you can use ```git add .``` For our case right now, you can use either.
 
+## Commit changes
 Now let's commit the changes. Type ```git commit -m "First commit. Added demo.txt file"```
 
 You can also change the ```master``` branch to ```main``` by using the command ```git branch -M main``` if you recieve an error that says ```error: refname refs/heads/master not found
 fatal: Branch rename failed``` then follow these steps:
 
+## Change "master" to "main"
 1. Within the project directory, type the command ```cd .git```
 2. Then open this folder in your code editor (with vscode you can type in ```.code```)
 3. Navigate to the ```HEAD``` file 
@@ -135,7 +140,7 @@ fatal: Branch rename failed``` then follow these steps:
 
 Now your ```master``` branch will be ```main```.
 
-Let's naviage to GitHub and create a new project. 
+Let's navigate to GitHub and create a new project. 
 
 Within GitHub, naviage to the ```new``` button to create a new project.
 
@@ -161,8 +166,9 @@ Let's push your project to GitHub.
 To do this, type the command ```git push -u origin main``` or ```git push -u origin master```
 if you branch name is still master.
 
-If you naviage to GitHub, you should see your file in GitHub!
+If you navigate to GitHub, you should see your file in GitHub!
 
+## Creating a branch
 Now let's create a new branch, add some commits, and merge that branch to your main/master branch.
 
 > A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project. The changes in the branches you create will not effect the main/master branch until you are ready to merge with the main/master branch.
@@ -184,7 +190,7 @@ Now we want to stage and commit the change we made to the ```demo.txt``` file in
 You can verify your commit history in the new branch by typing ```git log```. Here you should see the new commit.
 
 Right now, the ```main/master ``` branch is behind on one commit, so let's merge the ```dev``` branch with the ```main/master``` branch. 
-
+## Merging branches
 To merge the code from the ```dev``` branch into the ```main/master``` branch, checkout the ```main/master``` branch first. So use the command ```git checkout main``` or ```git checkout master``` to access the ```main/master``` branch. 
 
 Now we can use the ```merge``` command to merge branches, so type ```git merge dev```.
