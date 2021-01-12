@@ -199,6 +199,50 @@ We can push these changes to GitHub now. Follow these commands
 
 Your branches should now be merged! You can go to GitHub and checkout the ```demo.txt``` and make sure all of the contents are available.
 
+## Creating a Pull Request
+Let's learn about pull requests.
+
+You are now going to make a pull request on your partners ```git-demo``` project. 
+
+Go to their project and click the ```fork``` button at the top right. Make sure you fork the project to your organization.
+
+Forking will save the project to your GitHub account (you should see the project once it's forked).
+
+*Do this in the projects directory. Your path should look like /Users/radhika/projects*
+
+Now, clone the repo locally (in your terminal) by running ```git clone git@github.com:<your github username>/<repo name>``` This link is also available if you click on the code button in the repo (you just need to use ```git clone``` before the url).
+
+Create a new branch with ```git checkout -b <your-name demo>``` For example, ```git checkout -b radhika-demo```
+
+Create a new remote for the upstream repo with the command:
+
+```git remote add upstream https://github.com/trainer-dot/random```
+
+In this case, "upstream repo" refers to the original repo/parent repo you created your fork from.
+
+Type in ```ls``` into the terminal and you should see the ```demo.txt``` file. Make sure text from you partner. Within the file, you can type in something to them!
+
+Double check you are in your branch with ```git branch```
+
+Follow these steps to push your new changes:
+
+1. ```git add demo.txt```
+2. ```git commit -m "added my comment for a PR"```
+3. ```git push -u origin [branch]```
+
+For (3) [branch] will be the branch name that you used without the brackets. For exmaple ```git push -u origin radhika-demo```
+
+git push -u <branch>
+
+Go to the GitHub project page, and click on ```pull requests```
+
+You should see a green button that says ```New Pull Request``` that you should click on.
+
+Add a descirption of what the PR contains, and ```create pull request```
+
+
+## Accepting a Pull Request
+Partner should go to ```pull requests```, click on the ```pull reuqest```, and as long as there are no conflicts you can ```merge the pull request```.
 
 
 
