@@ -166,7 +166,7 @@ You are going to make a pull request on your partners ```git-demo``` project.
 
 
 ## Accepting a Pull Request
-**<span style="color:red"> **TASK:** </span> **Each person should go to ```pull requests```, click on the ```pull requests```, and as long as there are no conflicts you can ```merge the pull request```.
+<span style="color:red"> **TASK:** </span> Each person should go to ```pull requests```, click on the ```pull requests```, and as long as there are no conflicts you can ```merge the pull request```.
 
 ## Congrats
 You have finished the Git tutorial!
