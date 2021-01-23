@@ -53,7 +53,11 @@ Let's create a a file in the project folder called ```demo.txt```.
 
 Let's open the code editor you downloaded earlier for this project. <span style="color:red"> **TASK:** </span> To open VScode from the project folder in the terminal, you can type ```code .``` within your terminal within the project. Once your code editor is open, you should have access to your file. <span style="color:red"> **TASK:** </span> Within your file write ```This is a demo git repo.``` Save the changes once written (```cmd + s``` or ```file``` > ```save```)
 
-Let's add this file to our staging area. The staging area is where we keep track of all the files we need to commit. If a file is not added to the staging area, it will not be commited. <span style="color:red"> **TASK:** </span>To add a file to the staging area  type in the command ```git add demo.txt```. If you want to add all the files to the staging area you can use ```git add .``` For our case right now, you can use either.
+Let's add this file to our staging area. 
+
+> **Learning Note** The staging area is where we keep track of all the files we need to commit. If a file is not added to the staging area, it will not be commited. 
+
+<span style="color:red"> **TASK:** </span>To add a file to the staging area  type in the command ```git add demo.txt```. If you want to add all the files to the staging area you can use ```git add .``` For our case right now, you can use either.
 
 ## Commit changes
 <span style="color:red"> **TASK:** </span> Now let's commit the changes. Type ```git commit -m "First commit. Added demo.txt file"```
