@@ -1,4 +1,4 @@
-## *Make sure you complete the [pre-work](https://github.com/radhigulati/prework_instructions/blob/master/instructions.md) before continuing through the Git tutorial*
+## *Make sure you complete the [pre-work](https://github.com/radhigulati/prework_instructions/blob/master/instructions.md) before continuing with the Git tutorial*
 
 ## Introduction 
 In this tutorial you will learn how to:
