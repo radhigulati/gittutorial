@@ -150,7 +150,11 @@ You are going to make a pull request on your partners ```git-demo``` project.
 
 <span style="color:red"> **TASK:** </span> Create a new remote for the upstream repo with the command:
 
-```git remote add upstream https://github.com/trainer-dot/random```
+```git remote add upstream <link to github url>``` 
+
+The GitHub url is your partners GitHub project url.
+
+For example: ```git remote add upstream https://github.com/radhigulati/git-demo-rko```
 
 > **Learning note** "Upstream repo" refers to the original repo/parent repo you created your fork from.
 
