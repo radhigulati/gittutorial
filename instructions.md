@@ -25,7 +25,7 @@ Glossary of Terminal commands:
 ## Create project
 Let's begin!
 
-<span style="color:red"> **TASK:** </span> First, let's create a new directory in the Terminal where we will store all projects. Make sure you are in your home directory before creating the projects folder. To check which directory you are in use the ```pwd``` command in your terminal and you should see something like ```/Users/radhika```.
+<span style="color:red"> **TASK:** </span> First, let's create a new directory in the Terminal where we will store all projects. Make sure you are in your home directory before creating the projects folder. To check which directory you are in use the ```pwd``` command in your terminal and you should see something like ```/Users/radhika```. If you type in ```pwd``` into your terminal you should see the current directory you are in.
 
 <span style="color:red"> **TASK:** </span>Once you are in the correct directory use the command ```mkdir projects``` to create a new projects folder. Type in the command ```ls``` to list out the contents of this folder. 
 
