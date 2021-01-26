@@ -64,10 +64,9 @@ Let's add this file to our staging area.
 
 <span style="color:red"> **TASK:** </span>You can change the ```master``` branch to ```main``` by using the command ```git branch -M main```. If you are interested in why GitHub renamed it's ```master``` branch to ```main``` checkout [this](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main#:~:text=GitHub%20took%20action%20based%20on,a%20different%20default%20for%20new) article.
 
-If you recieve an error that says ```error: refname refs/heads/master not found
-fatal: Branch rename failed``` then follow these steps:
+**If you recieve an error that says ```error: refname refs/heads/master not found
+fatal: Branch rename failed``` then follow the steps below otherwise skip these steps:**
 
-## Change "master" to "main"
 1. Within the project directory, type the command ```cd .git```
 2. Then open this folder in your code editor (with vscode you can type in ```.code```)
 3. Navigate to the ```HEAD``` file 
