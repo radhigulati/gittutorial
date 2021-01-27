@@ -57,10 +57,37 @@ Let's add this file to our staging area.
 
 > **Learning Note** The staging area is where we keep track of all the files we need to commit. If a file is not added to the staging area, it will not be commited. 
 
+> **Learning Note** The ```git add``` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, ```git add``` doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
+
 <span style="color:red"> **TASK:** </span>To add a file to the staging area  type in the command ```git add demo.txt```. If you want to add all the files to the staging area you can use ```git add .``` For our case right now, you can use either.
 
 ## Commit changes
 <span style="color:red"> **TASK:** </span> Now let's commit the changes. Type ```git commit -m "First commit. Added demo.txt file"```
+
+Then type ```git status``` to check the status of git.
+
+## Add project to GitHub
+
+<span style="color:red"> **TASK:** </span>Let's navigate to GitHub and create a new project. Within GitHub, navigate to the ```new``` button to create a new project. For the ```repository name``` use ```git-demo```. You can add a description that says ```This project is a beginner git project.``` Make the project ```public```. Initialize this project with a ```README file```. Then click ```create repository```.
+
+You have now created an empty repository with a README file within GitHub. You will be directed to a page with some instructions that I will describe below. Keep in mind we've already run ```git init```.
+
+<span style="color:red"> **TASK:** </span> You have already added and commited changes to Git, so type ```git status``` to check the status of git. If you have changes that have not been added run the add and commit commands again:
+
+    git add .
+    git commit -m "add some description"
+
+If you see:
+
+    Your branch is up to date with 'origin/main'.
+
+    nothing to commit, working tree clean
+This means you have not made any new changes.
+
+<span style="color:red"> **TASK:** </span> Now, we need to point our local repository to the remote repository. To do that type the following command in your terminal (make sure you are in your project directory)
+```git remote add origin [repository url]```
+
+The ```repository url``` will be ```git@github.com:[your github username]/[name of repo].git```. For example, my url would be ```git@github.com:radhigulati/git-demo.git```. You can find this url in the instructions on your GitHub page for the new project you created. 
 
 <span style="color:red"> **TASK:** </span>You can change the ```master``` branch to ```main``` by using the command ```git branch -M main```. If you are interested in why GitHub renamed it's ```master``` branch to ```main``` checkout [this](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main#:~:text=GitHub%20took%20action%20based%20on,a%20different%20default%20for%20new) article.
 
@@ -74,17 +101,6 @@ fatal: Branch rename failed``` then follow the steps below otherwise skip these 
 5. Save this file
 
 Now your ```master``` branch will be ```main```.
-
-## Add project to GitHub
-
-<span style="color:red"> **TASK:** </span>Let's navigate to GitHub and create a new project. Within GitHub, navigate to the ```new``` button to create a new project. For the ```repository name``` use ```git-demo```. You can add a description that says ```This project is a beginner git project.``` Make the project ```public```. Initialize this project with a ```README file```. Then click ```create repository```.
-
-You have now created an empty repository with a README file within GitHub.
-
-<span style="color:red"> **TASK:** </span> Now, we need to point our local repository to the remote repository. To do that type the following command in your terminal (make sure you are in your project directory)
-```git remote add origin [repository url]```
-
-The ```repository url``` will be ```git@github.com:[your github username]/[name of repo].git```. For example, my url would be ```git@github.com:radhigulati/git-demo.git```
 
 <span style="color:red"> **TASK:** </span> Let's push your project to GitHub. To do this, type the command ```git push -u origin main``` or ```git push -u origin master```
 if the branch name is still master.
@@ -116,7 +132,7 @@ Right now, the ```main ``` branch is behind on one commit, so let's merge the ``
 
 *Continued in the next section* 
 ## Merging branches
-<span style="color:red"> **TASK:** </span> To merge the code from the ```dev``` branch into the ```main``` branch, checkout the ```main``` branch first. So use the command ```git checkout main```to access the ```main``` branch. 
+<span style="color:red"> **TASK:** </span> To merge the code from the ```dev``` branch into the ```main``` branch, checkout the ```main``` branch first. So use the command ```git checkout main``` to access the ```main``` branch. 
 
 <span style="color:red"> **TASK:** </span> Now we can use the ```merge``` command to merge branches, so type ```git merge dev```.
 
