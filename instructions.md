@@ -116,7 +116,7 @@ Now let's create a new branch, add some commits, and merge that branch to your m
 
 You should only see your ```main``` branch. Remember, we changed      ```master``` to ```main```.
 
-<span style="color:red"> **TASK:** </span>Now, let's create a branch called ```dev```. To do this type ```git checkout dev```. 
+<span style="color:red"> **TASK:** </span>Now, let's create a branch called ```dev```. To do this type ```git checkout -b dev```. 
 
 <span style="color:red"> **TASK:** </span> When you type ```git branch``` you should see the ```main``` branch and the ```dev``` branch. You should also be in the ```dev``` branch. 
 
