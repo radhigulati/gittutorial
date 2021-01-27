@@ -17,6 +17,7 @@ When I tell you to type a command into your terminal, type the command the way i
 Glossary of Terminal commands:
 * ```pwd```: present working directory
 * ```ls```: list
+* ```ls -la```: list all contents of directory including ignored files in long format
 * ```cd```: change directory
 * ```mkdir```: make directory
 * ```touch```: creates a new file
@@ -173,7 +174,7 @@ For example: ```git remote add upstream https://github.com/radhigulati/git-demo-
 
 > **Learning note** "Upstream repo" refers to the original repo/parent repo you created your fork from.
 
-<span style="color:red"> **TASK:** </span> Type ```ls``` into the terminal and you should see the ```demo.txt``` file. Make sure you see text from you partner. Within the file, you can type in something to them! (like "we love revenue enablement" or "Hello, {partner_name}!). Again, keep it safe for work. :) 
+<span style="color:red"> **TASK:** </span> Type ```ls -la``` into the terminal and you should see the ```demo.txt``` file. Make sure you see text from you partner. Within the file, you can type in something to them! (like "we love revenue enablement" or "Hello, {partner_name}!). Again, keep it safe for work. :) 
 
 <span style="color:red"> **TASK:** </span> Double check you are in your branch with the command```git branch```. When you type this command, you should see your branch highlighted.
 
