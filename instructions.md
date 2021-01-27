@@ -103,8 +103,7 @@ fatal: Branch rename failed``` then follow the steps below otherwise skip these 
 
 Now your ```master``` branch will be ```main```.
 
-<span style="color:red"> **TASK:** </span> Let's push your project to GitHub. To do this, type the command ```git push -u origin main``` or ```git push -u origin master```
-if the branch name is still master.
+<span style="color:red"> **TASK:** </span> Let's push your project to GitHub. To do this, type the command ```git push -u origin main```.
 
 If you navigate to GitHub, you should see your file in GitHub!
 
