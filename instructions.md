@@ -69,7 +69,7 @@ Then type ```git status``` to check the status of git.
 
 ## Add project to GitHub
 
-<span style="color:red"> **TASK:** </span>Let's navigate to GitHub and create a new project. Within GitHub, navigate to the ```new``` button to create a new project. For the ```repository name``` use ```git-demo```. You can add a description that says ```This project is a beginner git project.``` Make the project ```public```. Initialize this project with a ```README file```. Then click ```create repository```.
+<span style="color:red"> **TASK:** </span>Let's navigate to GitHub and create a new project. Within GitHub, navigate to the ```new``` button to create a new project. For the ```repository name``` use ```git-demo```. You can add a description that says ```This project is a beginner git project.``` Make the project ```public```. DO NOT initialize this project with a ```README file```. Then click ```create repository```.
 
 You have now created an empty repository with a README file within GitHub. You will be directed to a page with some instructions that I will describe below. Keep in mind we've already run ```git init```.
 
