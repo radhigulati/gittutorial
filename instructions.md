@@ -22,6 +22,14 @@ Glossary of Terminal commands:
 * ```mkdir```: make directory
 * ```touch```: creates a new file
 
+<span style="color:red"> **TASK:** </span> Open up your terminal, and type the following commands:
+
+* Type ```pwd``` to check what directory you are in. For example, I am in my ```git_tutorial``` directory and this is what I see ```/Users/radhika/projects/git_tutorial```.
+
+* Type ```ls``` to list the contents in the current directory. 
+
+* Type ```ls -la``` to list the contents in the current directory including ignored files. 
+
 
 ## Create project
 Let's begin!
@@ -63,7 +71,7 @@ Let's add this file to our staging area.
 <span style="color:red"> **TASK:** </span>To add a file to the staging area  type in the command ```git add demo.txt```. If you want to add all the files to the staging area you can use ```git add .``` For our case right now, you can use either.
 
 ## Commit changes
-<span style="color:red"> **TASK:** </span> Now let's commit the changes. Type ```git commit -m "First commit. Added demo.txt file"```
+**TASK:** </span> Now let's commit the changes. Type ```git commit -m "First commit. Added demo.txt file"```
 
 Then type ```git status``` to check the status of git.
 
